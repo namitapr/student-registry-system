@@ -1,0 +1,76 @@
+body {
+    font-family: palatino;
+    /* background-image: url('typewriter.jpg'); */
+}
+
+.band {
+    background-color: darkcyan;
+}
+
+h1 {
+    padding: 50px;
+    font-weight: bold;
+    font-size: 40pt;
+    color: white;
+}
+
+h2 {
+    padding: 50px;
+    padding-left: 75px;
+    color: white;
+    font-size: 36pt;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 36pt;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    color: darkcyan;
+}
+
+h4 {
+    padding: 75px;
+    font-size: 36pt;
+    font-weight: bold;
+    color: darkcyan;
+    padding-top: 175px;
+}
+
+#intro{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dashbuttons {
+    padding: 20px;
+	font-size: 18pt;
+	font-weight: bold;
+    background-color: lightseagreen;
+    margin-right: 0.5em; 
+    border-radius: 5px; 
+    border: black;
+     color: white; 
+}
+
+.form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding: 15px;
+    color: black;
+}
+
+input {
+    background-color: lightseagreen;
+    color: ivory;
+}
+
+.studentName{
+    font-weight: bold;
+    font-size: 14pt;
+    color: teal;
+}

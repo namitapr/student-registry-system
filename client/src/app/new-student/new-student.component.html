@@ -1,0 +1,46 @@
+<div class="band">
+  <h2 class="page-header">Add New Student</h2>
+  <br>
+</div>
+<div class="container">
+  <form class="form-horizontal" (submit) = "addStudent()">
+    <div class="form-group">
+      <br>
+      <label class="control-label col-sm-2">Name</label>
+      <div class="col-sm-10">
+        <input type="text" [(ngModel)]="name" name="name" class="form-control">
+        <br>
+      </div>
+
+      <label class="control-label col-sm-2">Major</label>
+      <div class="col-sm-10">
+        <input type="text" [(ngModel)]="major" name="major" class="form-control">
+        <br>
+      </div>
+
+      <label class="control-label col-sm-2">Email</label>
+      <div class="col-sm-10">
+        <input type="text" [(ngModel)]="email" name="email" class="form-control">
+        <br>
+      </div>
+
+      <label class="control-label col-sm-2">Graduation Year</label>
+      <div class="col-sm-10">
+        <input type="text" [(ngModel)]="gradyear" name="gradyear" class="form-control">
+        <br>
+      </div>
+
+      <label class="control-label col-sm-2">Contact Number</label>
+      <div class="col-sm-10">
+        <input type="text" [(ngModel)]="number" name="number" class="form-control">
+        <br>
+      </div>
+      
+      <div class="text-center">
+        <br>
+        <input class="btn btn-lg" id="addButton" type="submit" value="Add">
+      </div>
+      
+    </div>
+  </form>
+</div>

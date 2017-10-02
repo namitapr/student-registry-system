@@ -1,0 +1,26 @@
+<div class="band">
+  <h1 class="page-header">The NAPP Student Registry</h1>
+  <br>
+</div>
+<div class="container">
+  <br><br>
+  <div *ngFor = "let student of students" class="col-md-3">  
+    <div class="studentName">
+      {{student.name}}
+    </div>
+    <label>Major:</label>
+      {{student.major}}
+    <br>
+    <label>Email:</label>
+      {{student.email}}
+    <br>
+    <label>Graduation Year:</label>
+      {{student.gradyear}}
+    <br>
+    <label>Contact Number:</label>
+      {{student.number}}
+    <br>
+    <br>
+    <hr>
+  </div>
+</div>
