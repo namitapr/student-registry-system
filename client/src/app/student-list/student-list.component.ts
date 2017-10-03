@@ -12,7 +12,7 @@ import { Student } from '../student';
 export class StudentListComponent implements OnInit {
   students: Student[];
   student: Student;
-  name;
+  name: string;
   major: string;
   email: string;
   gradyear: string;
